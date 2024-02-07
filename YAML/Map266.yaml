@@ -1,0 +1,334 @@
+!ruby/object:RPG::Map
+'parallax_name': ''
+'height': !!int '19'
+'events':
+  !!int '1': !ruby/object:RPG::Event
+    'id': !!int '1'
+    'name': 'EV001'
+    'x': !!int '8'
+    'y': !!int '16'
+    'pages':
+    - !ruby/object:RPG::Event::Page
+      'condition': !ruby/object:RPG::Event::Page::Condition
+        'switch1_valid': !!bool 'false'
+        'switch2_valid': !!bool 'false'
+        'variable_valid': !!bool 'false'
+        'self_switch_valid': !!bool 'false'
+        'item_valid': !!bool 'false'
+        'actor_valid': !!bool 'false'
+        'switch1_id': !!int '1'
+        'switch2_id': !!int '1'
+        'variable_id': !!int '1'
+        'variable_value': !!int '0'
+        'self_switch_ch': 'A'
+        'item_id': !!int '1'
+        'actor_id': !!int '1'
+      'graphic': !ruby/object:RPG::Event::Page::Graphic
+        'tile_id': !!int '0'
+        'character_name': ''
+        'character_index': !!int '0'
+        'direction': !!int '2'
+        'pattern': !!int '0'
+      'move_type': !!int '0'
+      'move_speed': !!int '3'
+      'move_frequency': !!int '3'
+      'move_route': !ruby/object:RPG::MoveRoute
+        'repeat': !!bool 'true'
+        'skippable': !!bool 'false'
+        'wait': !!bool 'false'
+        'list':
+        - !ruby/object:RPG::MoveCommand {'code': !!int '0', 'parameters': []}
+      'walk_anime': !!bool 'false'
+      'step_anime': !!bool 'false'
+      'direction_fix': !!bool 'false'
+      'through': !!bool 'false'
+      'priority_type': !!int '0'
+      'trigger': !!int '1'
+      'list':
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '242', 'p': [!!int '1']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '221', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '40']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '201', 'p': [!!int '0', !!int '200', !!int '10', !!int '10', !!int '0', !!int '2']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '222', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
+  !!int '2': !ruby/object:RPG::Event
+    'id': !!int '2'
+    'name': 'EV002'
+    'x': !!int '8'
+    'y': !!int '3'
+    'pages':
+    - !ruby/object:RPG::Event::Page
+      'condition': !ruby/object:RPG::Event::Page::Condition
+        'switch1_valid': !!bool 'false'
+        'switch2_valid': !!bool 'false'
+        'variable_valid': !!bool 'false'
+        'self_switch_valid': !!bool 'false'
+        'item_valid': !!bool 'false'
+        'actor_valid': !!bool 'false'
+        'switch1_id': !!int '1'
+        'switch2_id': !!int '1'
+        'variable_id': !!int '1'
+        'variable_value': !!int '0'
+        'self_switch_ch': 'A'
+        'item_id': !!int '1'
+        'actor_id': !!int '1'
+      'graphic': !ruby/object:RPG::Event::Page::Graphic
+        'tile_id': !!int '0'
+        'character_name': ''
+        'character_index': !!int '0'
+        'direction': !!int '2'
+        'pattern': !!int '0'
+      'move_type': !!int '0'
+      'move_speed': !!int '3'
+      'move_frequency': !!int '3'
+      'move_route': !ruby/object:RPG::MoveRoute
+        'repeat': !!bool 'true'
+        'skippable': !!bool 'false'
+        'wait': !!bool 'false'
+        'list':
+        - !ruby/object:RPG::MoveCommand {'code': !!int '0', 'parameters': []}
+      'walk_anime': !!bool 'false'
+      'step_anime': !!bool 'false'
+      'direction_fix': !!bool 'false'
+      'through': !!bool 'false'
+      'priority_type': !!int '0'
+      'trigger': !!int '1'
+      'list':
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '221', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '43']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '201', 'p': [!!int '0', !!int '267', !!int '5', !!int '28', !!int '0', !!int '2']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '122', 'p': [!!int '1', !!int '3', !!int '0', !!int '0', !!int '300']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '122', 'p': [!!int '4', !!int '5', !!int '0', !!int '0', !!int '750']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '122', 'p': [!!int '6', !!int '7', !!int '0', !!int '0', !!int '800']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '222', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
+  !!int '3': !ruby/object:RPG::Event
+    'id': !!int '3'
+    'name': 'EV003'
+    'x': !!int '6'
+    'y': !!int '5'
+    'pages':
+    - !ruby/object:RPG::Event::Page
+      'condition': !ruby/object:RPG::Event::Page::Condition
+        'switch1_valid': !!bool 'false'
+        'switch2_valid': !!bool 'false'
+        'variable_valid': !!bool 'true'
+        'self_switch_valid': !!bool 'false'
+        'item_valid': !!bool 'false'
+        'actor_valid': !!bool 'false'
+        'switch1_id': !!int '1'
+        'switch2_id': !!int '1'
+        'variable_id': !!int '100'
+        'variable_value': !!int '33'
+        'self_switch_ch': 'A'
+        'item_id': !!int '1'
+        'actor_id': !!int '1'
+      'graphic': !ruby/object:RPG::Event::Page::Graphic
+        'tile_id': !!int '0'
+        'character_name': '!Hexagram'
+        'character_index': !!int '7'
+        'direction': !!int '6'
+        'pattern': !!int '1'
+      'move_type': !!int '0'
+      'move_speed': !!int '5'
+      'move_frequency': !!int '4'
+      'move_route': !ruby/object:RPG::MoveRoute
+        'repeat': !!bool 'true'
+        'skippable': !!bool 'false'
+        'wait': !!bool 'false'
+        'list':
+        - !ruby/object:RPG::MoveCommand {'code': !!int '0', 'parameters': []}
+      'walk_anime': !!bool 'false'
+      'step_anime': !!bool 'true'
+      'direction_fix': !!bool 'true'
+      'through': !!bool 'false'
+      'priority_type': !!int '0'
+      'trigger': !!int '1'
+      'list':
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '242', 'p': [!!int '3']}
+      - !ruby/object:RPG::EventCommand
+        'i': !!int '0'
+        'c': !!int '205'
+        'p':
+        - !!int '-1'
+        - !ruby/object:RPG::MoveRoute
+          'repeat': !!bool 'false'
+          'skippable': !!bool 'false'
+          'wait': !!bool 'true'
+          'list':
+          - &1 !ruby/object:RPG::MoveCommand {'code': !!int '16', 'parameters': []}
+          - !ruby/object:RPG::MoveCommand {'code': !!int '0', 'parameters': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*1]}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '45']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '212', 'p': [!!int '-1', !!int '107', !!bool 'false']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '110']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '221', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '235', 'p': [!!int '1']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '40']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '241', 'p': [!ruby/object:RPG::BGM {'name': 'Scene00', 'volume': !!int '90', 'pitch': !!int '100'}]}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '201', 'p': [!!int '0', !!int '276', !!int '8', !!int '6', !!int '8', !!int '2']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '222', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
+    - !ruby/object:RPG::Event::Page
+      'condition': !ruby/object:RPG::Event::Page::Condition
+        'switch1_valid': !!bool 'false'
+        'switch2_valid': !!bool 'false'
+        'variable_valid': !!bool 'true'
+        'self_switch_valid': !!bool 'false'
+        'item_valid': !!bool 'false'
+        'actor_valid': !!bool 'false'
+        'switch1_id': !!int '1'
+        'switch2_id': !!int '1'
+        'variable_id': !!int '39'
+        'variable_value': !!int '12'
+        'self_switch_ch': 'A'
+        'item_id': !!int '1'
+        'actor_id': !!int '1'
+      'graphic': !ruby/object:RPG::Event::Page::Graphic
+        'tile_id': !!int '0'
+        'character_name': '!Hexagram'
+        'character_index': !!int '7'
+        'direction': !!int '6'
+        'pattern': !!int '1'
+      'move_type': !!int '0'
+      'move_speed': !!int '5'
+      'move_frequency': !!int '4'
+      'move_route': !ruby/object:RPG::MoveRoute
+        'repeat': !!bool 'true'
+        'skippable': !!bool 'false'
+        'wait': !!bool 'false'
+        'list':
+        - !ruby/object:RPG::MoveCommand {'code': !!int '0', 'parameters': []}
+      'walk_anime': !!bool 'false'
+      'step_anime': !!bool 'true'
+      'direction_fix': !!bool 'true'
+      'through': !!bool 'false'
+      'priority_type': !!int '0'
+      'trigger': !!int '1'
+      'list':
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '242', 'p': [!!int '3']}
+      - !ruby/object:RPG::EventCommand
+        'i': !!int '0'
+        'c': !!int '205'
+        'p':
+        - !!int '-1'
+        - !ruby/object:RPG::MoveRoute
+          'repeat': !!bool 'false'
+          'skippable': !!bool 'false'
+          'wait': !!bool 'true'
+          'list':
+          - &2 !ruby/object:RPG::MoveCommand {'code': !!int '16', 'parameters': []}
+          - !ruby/object:RPG::MoveCommand {'code': !!int '0', 'parameters': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*2]}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '45']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '212', 'p': [!!int '-1', !!int '107', !!bool 'false']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '110']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '221', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '235', 'p': [!!int '1']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '40']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '241', 'p': [!ruby/object:RPG::BGM {'name': 'Scene00', 'volume': !!int '90', 'pitch': !!int '100'}]}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '201', 'p': [!!int '0', !!int '276', !!int '8', !!int '6', !!int '8', !!int '2']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '222', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
+'parallax_sx': !!int '0'
+'bgm': !ruby/object:RPG::BGM {'name': 'Stage02', 'volume': !!int '95', 'pitch': !!int '95'}
+'tileset_id': !!int '4'
+'encounter_step': !!int '30'
+'width': !!int '17'
+'data': !ruby/object:Table
+  'dim': !!int '3'
+  'x': !!int '17'
+  'y': !!int '19'
+  'z': !!int '4'
+  'data':
+  - '1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d90'
+  - '1d90 1d90 1d90 1d90 1d90 1d90 1d94 1dac 1dac 1dac 1d98 1d90 1d90 1d90 1d90 1d90 1d90'
+  - '1d90 1d90 1d90 1d90 1d90 1d94 1db6 1f12 1f12 1f12 1da0 1d90 1d90 1d90 1d90 1d90 1d90'
+  - '1d90 1d90 1d90 1d90 1d90 1da8 1f16 1f18 1f18 1f18 1da0 1d90 1d90 1d90 1d90 1d90 1d90'
+  - '1d90 1d90 1d90 1d90 1d94 1db6 1f1c 0fa2 0f94 0fa4 1da0 1d90 1d90 1d90 1d90 1d90 1d90'
+  - '1d90 1d90 1d90 1d90 1da8 1f16 0fa2 0f81 0f80 0f98 1db8 1d98 1d90 1d90 1d90 1d90 1d90'
+  - '1d90 1d90 1d90 1d90 1da8 1f1c 0f90 0f80 0f80 0f98 1f13 1da0 1d90 1d90 1d90 1d90 1d90'
+  - '1d90 1d90 1d90 1d90 1da8 0fa2 0f81 0f80 0f80 0f98 1f19 1da0 1d90 1d90 1d90 1d90 1d90'
+  - '1d90 1d90 1d90 1d90 1da8 0f90 0f80 0f80 0f80 0f82 0fa4 1da0 1d90 1d90 1d90 1d90 1d90'
+  - '1d90 1d90 1d90 1d90 1da8 0fa8 0f88 0f80 0f80 0f80 0f98 1da0 1d90 1d90 1d90 1d90 1d90'
+  - '1d90 1d90 1d90 1d90 1d92 1db4 0f80 0f80 0f80 0f80 0f98 1da0 1d90 1d90 1d90 1d90 1d90'
+  - '1d90 1d90 1d90 1d90 1d90 1da8 0f80 0f80 0f80 0f84 0fa6 1da0 1d90 1d90 1d90 1d90 1d90'
+  - '1d90 1d90 1d90 1d90 1d90 1da8 0f80 0f88 0f80 0f98 1db2 1d91 1d90 1d90 1d90 1d90 1d90'
+  - '1d90 1d90 1d90 1d90 1d90 1d92 1db4 0f90 0f80 0f98 1da0 1d90 1d90 1d90 1d90 1d90 1d90'
+  - '1d90 1d90 1d90 1d90 1d90 1d90 1da8 0f90 0f80 0f98 1da0 1d90 1d90 1d90 1d90 1d90 1d90'
+  - '1d90 1d90 1d90 1d90 1d90 1d90 1da8 0fa8 0f8c 0fa6 1da0 1d90 1d90 1d90 1d90 1d90 1d90'
+  - '1d90 1d90 1d90 1d90 1d90 1d90 1d92 1db4 0fac 1db2 1d91 1d90 1d90 1d90 1d90 1d90 1d90'
+  - '1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d92 1da4 1d91 1d90 1d90 1d90 1d90 1d90 1d90 1d90'
+  - '1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d90 1d90'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0dec 0dec 0dd8 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0df8 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0c7e 0000 0df2 0dd1 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0dfa 0000 0de0 0dd0 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0de4 0dea 0000 0df8 0dd8 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0dd4 0dee 0dfd 0000 0de0 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0de8 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0c7e 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0081 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0089 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0222 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0222 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0222 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0222 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0222 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0222 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0222 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 008d 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+'bgs': !ruby/object:RPG::BGS {'name': '', 'volume': !!int '80', 'pitch': !!int '100'}
+'parallax_loop_y': !!bool 'false'
+'autoplay_bgm': !!bool 'true'
+'encounter_list': []
+'autoplay_bgs': !!bool 'false'
+'parallax_show': !!bool 'false'
+'scroll_type': !!int '0'
+'parallax_loop_x': !!bool 'false'
+'disable_dashing': !!bool 'false'
+'parallax_sy': !!int '0'
+'display_name': ''
+'specify_battleback': !!bool 'false'
+'note': ''
+'battleback1_name': ''
+'battleback2_name': ''

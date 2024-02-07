@@ -1,0 +1,762 @@
+!ruby/object:RPG::Map
+'parallax_name': 'Mountains5'
+'height': !!int '33'
+'events':
+  !!int '1': !ruby/object:RPG::Event
+    'id': !!int '1'
+    'name': 'HP同期コモン'
+    'x': !!int '0'
+    'y': !!int '0'
+    'pages':
+    - !ruby/object:RPG::Event::Page
+      'condition': !ruby/object:RPG::Event::Page::Condition
+        'switch1_valid': !!bool 'false'
+        'switch2_valid': !!bool 'false'
+        'variable_valid': !!bool 'false'
+        'self_switch_valid': !!bool 'false'
+        'item_valid': !!bool 'false'
+        'actor_valid': !!bool 'false'
+        'switch1_id': !!int '1'
+        'switch2_id': !!int '1'
+        'variable_id': !!int '1'
+        'variable_value': !!int '0'
+        'self_switch_ch': 'A'
+        'item_id': !!int '1'
+        'actor_id': !!int '1'
+      'graphic': !ruby/object:RPG::Event::Page::Graphic
+        'tile_id': !!int '0'
+        'character_name': ''
+        'character_index': !!int '0'
+        'direction': !!int '2'
+        'pattern': !!int '0'
+      'move_type': !!int '0'
+      'move_speed': !!int '3'
+      'move_frequency': !!int '3'
+      'move_route': !ruby/object:RPG::MoveRoute
+        'repeat': !!bool 'true'
+        'skippable': !!bool 'false'
+        'wait': !!bool 'false'
+        'list':
+        - !ruby/object:RPG::MoveCommand {'code': !!int '0', 'parameters': []}
+      'walk_anime': !!bool 'true'
+      'step_anime': !!bool 'false'
+      'direction_fix': !!bool 'false'
+      'through': !!bool 'false'
+      'priority_type': !!int '0'
+      'trigger': !!int '4'
+      'list':
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '1']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
+  !!int '2': !ruby/object:RPG::Event
+    'id': !!int '2'
+    'name': 'EV002'
+    'x': !!int '4'
+    'y': !!int '30'
+    'pages':
+    - !ruby/object:RPG::Event::Page
+      'condition': !ruby/object:RPG::Event::Page::Condition
+        'switch1_valid': !!bool 'false'
+        'switch2_valid': !!bool 'false'
+        'variable_valid': !!bool 'false'
+        'self_switch_valid': !!bool 'false'
+        'item_valid': !!bool 'false'
+        'actor_valid': !!bool 'false'
+        'switch1_id': !!int '1'
+        'switch2_id': !!int '1'
+        'variable_id': !!int '1'
+        'variable_value': !!int '0'
+        'self_switch_ch': 'A'
+        'item_id': !!int '1'
+        'actor_id': !!int '1'
+      'graphic': !ruby/object:RPG::Event::Page::Graphic
+        'tile_id': !!int '0'
+        'character_name': ''
+        'character_index': !!int '0'
+        'direction': !!int '2'
+        'pattern': !!int '0'
+      'move_type': !!int '0'
+      'move_speed': !!int '3'
+      'move_frequency': !!int '3'
+      'move_route': !ruby/object:RPG::MoveRoute
+        'repeat': !!bool 'true'
+        'skippable': !!bool 'false'
+        'wait': !!bool 'false'
+        'list':
+        - !ruby/object:RPG::MoveCommand {'code': !!int '0', 'parameters': []}
+      'walk_anime': !!bool 'false'
+      'step_anime': !!bool 'false'
+      'direction_fix': !!bool 'false'
+      'through': !!bool 'false'
+      'priority_type': !!int '0'
+      'trigger': !!int '1'
+      'list':
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '121', 'p': [!!int '104', !!int '104', !!int '1']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '221', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '40']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '134', 'p': [!!int '1']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '201', 'p': [!!int '0', !!int '203', !!int '13', !!int '4', !!int '2', !!int '2']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '222', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
+  !!int '3': !ruby/object:RPG::Event
+    'id': !!int '3'
+    'name': 'EV003'
+    'x': !!int '5'
+    'y': !!int '30'
+    'pages':
+    - !ruby/object:RPG::Event::Page
+      'condition': !ruby/object:RPG::Event::Page::Condition
+        'switch1_valid': !!bool 'false'
+        'switch2_valid': !!bool 'false'
+        'variable_valid': !!bool 'false'
+        'self_switch_valid': !!bool 'false'
+        'item_valid': !!bool 'false'
+        'actor_valid': !!bool 'false'
+        'switch1_id': !!int '1'
+        'switch2_id': !!int '1'
+        'variable_id': !!int '1'
+        'variable_value': !!int '0'
+        'self_switch_ch': 'A'
+        'item_id': !!int '1'
+        'actor_id': !!int '1'
+      'graphic': !ruby/object:RPG::Event::Page::Graphic
+        'tile_id': !!int '0'
+        'character_name': ''
+        'character_index': !!int '0'
+        'direction': !!int '2'
+        'pattern': !!int '0'
+      'move_type': !!int '0'
+      'move_speed': !!int '3'
+      'move_frequency': !!int '3'
+      'move_route': !ruby/object:RPG::MoveRoute
+        'repeat': !!bool 'true'
+        'skippable': !!bool 'false'
+        'wait': !!bool 'false'
+        'list':
+        - !ruby/object:RPG::MoveCommand {'code': !!int '0', 'parameters': []}
+      'walk_anime': !!bool 'false'
+      'step_anime': !!bool 'false'
+      'direction_fix': !!bool 'false'
+      'through': !!bool 'false'
+      'priority_type': !!int '0'
+      'trigger': !!int '1'
+      'list':
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '121', 'p': [!!int '104', !!int '104', !!int '1']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '221', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '40']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '134', 'p': [!!int '1']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '201', 'p': [!!int '0', !!int '203', !!int '14', !!int '4', !!int '2', !!int '2']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '222', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
+  !!int '4': !ruby/object:RPG::Event
+    'id': !!int '4'
+    'name': 'En01'
+    'x': !!int '5'
+    'y': !!int '20'
+    'pages':
+    - !ruby/object:RPG::Event::Page
+      'condition': !ruby/object:RPG::Event::Page::Condition
+        'switch1_valid': !!bool 'false'
+        'switch2_valid': !!bool 'false'
+        'variable_valid': !!bool 'false'
+        'self_switch_valid': !!bool 'false'
+        'item_valid': !!bool 'false'
+        'actor_valid': !!bool 'false'
+        'switch1_id': !!int '1'
+        'switch2_id': !!int '1'
+        'variable_id': !!int '1'
+        'variable_value': !!int '0'
+        'self_switch_ch': 'A'
+        'item_id': !!int '1'
+        'actor_id': !!int '1'
+      'graphic': !ruby/object:RPG::Event::Page::Graphic
+        'tile_id': !!int '0'
+        'character_name': 'Monster01'
+        'character_index': !!int '5'
+        'direction': !!int '2'
+        'pattern': !!int '1'
+      'move_type': !!int '1'
+      'move_speed': !!int '5'
+      'move_frequency': !!int '4'
+      'move_route': !ruby/object:RPG::MoveRoute
+        'repeat': !!bool 'true'
+        'skippable': !!bool 'false'
+        'wait': !!bool 'false'
+        'list':
+        - !ruby/object:RPG::MoveCommand {'code': !!int '0', 'parameters': []}
+      'walk_anime': !!bool 'true'
+      'step_anime': !!bool 'true'
+      'direction_fix': !!bool 'false'
+      'through': !!bool 'false'
+      'priority_type': !!int '1'
+      'trigger': !!int '2'
+      'list':
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '108', 'p': ['HP:140 攻撃力:60 E:25 G:31']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '122', 'p': [!!int '99', !!int '99', !!int '0', !!int '2', !!int '1', !!int '10']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '111', 'p': [!!int '1', !!int '99', !!int '0', !!int '10', !!int '1']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '122', 'p': [!!int '103', !!int '103', !!int '0', !!int '0', !!int '60']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '117', 'p': [!!int '6']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '411', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '117', 'p': [!!int '12']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '122', 'p': [!!int '1', !!int '1', !!int '2', !!int '1', !!int '106']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '111', 'p': [!!int '1', !!int '1', !!int '0', !!int '0', !!int '2']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '212', 'p': [!!int '0', !!int '2', !!bool 'false']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '214', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '24']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '122', 'p': [!!int '95', !!int '95', !!int '0', !!int '0', !!int '25']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '122', 'p': [!!int '96', !!int '96', !!int '0', !!int '0', !!int '31']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '13']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '1']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '411', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '44']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '412', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '412', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
+  !!int '5': !ruby/object:RPG::Event
+    'id': !!int '5'
+    'name': 'En03'
+    'x': !!int '26'
+    'y': !!int '13'
+    'pages':
+    - !ruby/object:RPG::Event::Page
+      'condition': !ruby/object:RPG::Event::Page::Condition
+        'switch1_valid': !!bool 'false'
+        'switch2_valid': !!bool 'false'
+        'variable_valid': !!bool 'false'
+        'self_switch_valid': !!bool 'false'
+        'item_valid': !!bool 'false'
+        'actor_valid': !!bool 'false'
+        'switch1_id': !!int '1'
+        'switch2_id': !!int '1'
+        'variable_id': !!int '1'
+        'variable_value': !!int '0'
+        'self_switch_ch': 'A'
+        'item_id': !!int '1'
+        'actor_id': !!int '1'
+      'graphic': !ruby/object:RPG::Event::Page::Graphic
+        'tile_id': !!int '0'
+        'character_name': 'Monster03'
+        'character_index': !!int '0'
+        'direction': !!int '2'
+        'pattern': !!int '1'
+      'move_type': !!int '1'
+      'move_speed': !!int '4'
+      'move_frequency': !!int '5'
+      'move_route': !ruby/object:RPG::MoveRoute
+        'repeat': !!bool 'true'
+        'skippable': !!bool 'false'
+        'wait': !!bool 'false'
+        'list':
+        - !ruby/object:RPG::MoveCommand {'code': !!int '0', 'parameters': []}
+      'walk_anime': !!bool 'true'
+      'step_anime': !!bool 'true'
+      'direction_fix': !!bool 'false'
+      'through': !!bool 'false'
+      'priority_type': !!int '1'
+      'trigger': !!int '2'
+      'list':
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '108', 'p': ['HP:430 攻撃力:77 E:50 G:42']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '122', 'p': [!!int '99', !!int '99', !!int '0', !!int '2', !!int '1', !!int '10']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '111', 'p': [!!int '1', !!int '99', !!int '0', !!int '10', !!int '1']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '122', 'p': [!!int '103', !!int '103', !!int '0', !!int '0', !!int '77']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '117', 'p': [!!int '6']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '411', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '117', 'p': [!!int '12']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '122', 'p': [!!int '3', !!int '3', !!int '2', !!int '1', !!int '106']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '111', 'p': [!!int '1', !!int '3', !!int '0', !!int '0', !!int '2']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '212', 'p': [!!int '0', !!int '2', !!bool 'false']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '214', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '122', 'p': [!!int '95', !!int '95', !!int '0', !!int '0', !!int '50']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '122', 'p': [!!int '96', !!int '96', !!int '0', !!int '0', !!int '42']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '13']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '1']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '411', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '44']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '412', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '412', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
+  !!int '6': !ruby/object:RPG::Event
+    'id': !!int '6'
+    'name': 'En05'
+    'x': !!int '12'
+    'y': !!int '9'
+    'pages':
+    - !ruby/object:RPG::Event::Page
+      'condition': !ruby/object:RPG::Event::Page::Condition
+        'switch1_valid': !!bool 'false'
+        'switch2_valid': !!bool 'false'
+        'variable_valid': !!bool 'false'
+        'self_switch_valid': !!bool 'false'
+        'item_valid': !!bool 'false'
+        'actor_valid': !!bool 'false'
+        'switch1_id': !!int '1'
+        'switch2_id': !!int '1'
+        'variable_id': !!int '1'
+        'variable_value': !!int '0'
+        'self_switch_ch': 'A'
+        'item_id': !!int '1'
+        'actor_id': !!int '1'
+      'graphic': !ruby/object:RPG::Event::Page::Graphic
+        'tile_id': !!int '0'
+        'character_name': 'Monster03'
+        'character_index': !!int '4'
+        'direction': !!int '2'
+        'pattern': !!int '1'
+      'move_type': !!int '1'
+      'move_speed': !!int '4'
+      'move_frequency': !!int '4'
+      'move_route': !ruby/object:RPG::MoveRoute
+        'repeat': !!bool 'true'
+        'skippable': !!bool 'false'
+        'wait': !!bool 'false'
+        'list':
+        - !ruby/object:RPG::MoveCommand {'code': !!int '0', 'parameters': []}
+      'walk_anime': !!bool 'true'
+      'step_anime': !!bool 'true'
+      'direction_fix': !!bool 'false'
+      'through': !!bool 'false'
+      'priority_type': !!int '1'
+      'trigger': !!int '2'
+      'list':
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '108', 'p': ['HP:750 攻撃力:95 E:82 G:59']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '122', 'p': [!!int '99', !!int '99', !!int '0', !!int '2', !!int '1', !!int '10']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '111', 'p': [!!int '1', !!int '99', !!int '0', !!int '10', !!int '1']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '122', 'p': [!!int '103', !!int '103', !!int '0', !!int '0', !!int '95']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '117', 'p': [!!int '6']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '411', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '117', 'p': [!!int '12']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '122', 'p': [!!int '5', !!int '5', !!int '2', !!int '1', !!int '106']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '111', 'p': [!!int '1', !!int '5', !!int '0', !!int '0', !!int '2']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '212', 'p': [!!int '0', !!int '2', !!bool 'false']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '214', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '14']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '122', 'p': [!!int '95', !!int '95', !!int '0', !!int '0', !!int '82']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '122', 'p': [!!int '96', !!int '96', !!int '0', !!int '0', !!int '59']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '13']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '1']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '411', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '44']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '412', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '412', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
+  !!int '7': !ruby/object:RPG::Event
+    'id': !!int '7'
+    'name': 'En02'
+    'x': !!int '26'
+    'y': !!int '18'
+    'pages':
+    - !ruby/object:RPG::Event::Page
+      'condition': !ruby/object:RPG::Event::Page::Condition
+        'switch1_valid': !!bool 'false'
+        'switch2_valid': !!bool 'false'
+        'variable_valid': !!bool 'false'
+        'self_switch_valid': !!bool 'false'
+        'item_valid': !!bool 'false'
+        'actor_valid': !!bool 'false'
+        'switch1_id': !!int '1'
+        'switch2_id': !!int '1'
+        'variable_id': !!int '1'
+        'variable_value': !!int '0'
+        'self_switch_ch': 'A'
+        'item_id': !!int '1'
+        'actor_id': !!int '1'
+      'graphic': !ruby/object:RPG::Event::Page::Graphic
+        'tile_id': !!int '0'
+        'character_name': 'Monster01'
+        'character_index': !!int '5'
+        'direction': !!int '2'
+        'pattern': !!int '1'
+      'move_type': !!int '2'
+      'move_speed': !!int '5'
+      'move_frequency': !!int '4'
+      'move_route': !ruby/object:RPG::MoveRoute
+        'repeat': !!bool 'true'
+        'skippable': !!bool 'false'
+        'wait': !!bool 'false'
+        'list':
+        - !ruby/object:RPG::MoveCommand {'code': !!int '0', 'parameters': []}
+      'walk_anime': !!bool 'true'
+      'step_anime': !!bool 'true'
+      'direction_fix': !!bool 'false'
+      'through': !!bool 'false'
+      'priority_type': !!int '1'
+      'trigger': !!int '2'
+      'list':
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '108', 'p': ['HP:140 攻撃力:60 E:25 G:31']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '122', 'p': [!!int '99', !!int '99', !!int '0', !!int '2', !!int '1', !!int '10']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '111', 'p': [!!int '1', !!int '99', !!int '0', !!int '10', !!int '1']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '122', 'p': [!!int '103', !!int '103', !!int '0', !!int '0', !!int '60']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '117', 'p': [!!int '6']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '411', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '117', 'p': [!!int '12']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '122', 'p': [!!int '2', !!int '2', !!int '2', !!int '1', !!int '106']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '111', 'p': [!!int '1', !!int '2', !!int '0', !!int '0', !!int '2']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '212', 'p': [!!int '0', !!int '2', !!bool 'false']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '214', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '24']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '122', 'p': [!!int '95', !!int '95', !!int '0', !!int '0', !!int '25']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '122', 'p': [!!int '96', !!int '96', !!int '0', !!int '0', !!int '31']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '13']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '1']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '411', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '44']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '412', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '412', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
+  !!int '8': !ruby/object:RPG::Event
+    'id': !!int '8'
+    'name': 'En04'
+    'x': !!int '8'
+    'y': !!int '11'
+    'pages':
+    - !ruby/object:RPG::Event::Page
+      'condition': !ruby/object:RPG::Event::Page::Condition
+        'switch1_valid': !!bool 'false'
+        'switch2_valid': !!bool 'false'
+        'variable_valid': !!bool 'false'
+        'self_switch_valid': !!bool 'false'
+        'item_valid': !!bool 'false'
+        'actor_valid': !!bool 'false'
+        'switch1_id': !!int '1'
+        'switch2_id': !!int '1'
+        'variable_id': !!int '1'
+        'variable_value': !!int '0'
+        'self_switch_ch': 'A'
+        'item_id': !!int '1'
+        'actor_id': !!int '1'
+      'graphic': !ruby/object:RPG::Event::Page::Graphic
+        'tile_id': !!int '0'
+        'character_name': 'Monster03'
+        'character_index': !!int '0'
+        'direction': !!int '2'
+        'pattern': !!int '1'
+      'move_type': !!int '2'
+      'move_speed': !!int '4'
+      'move_frequency': !!int '5'
+      'move_route': !ruby/object:RPG::MoveRoute
+        'repeat': !!bool 'true'
+        'skippable': !!bool 'false'
+        'wait': !!bool 'false'
+        'list':
+        - !ruby/object:RPG::MoveCommand {'code': !!int '0', 'parameters': []}
+      'walk_anime': !!bool 'true'
+      'step_anime': !!bool 'true'
+      'direction_fix': !!bool 'false'
+      'through': !!bool 'false'
+      'priority_type': !!int '1'
+      'trigger': !!int '2'
+      'list':
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '108', 'p': ['HP:430 攻撃力:77 E:50 G:42']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '122', 'p': [!!int '99', !!int '99', !!int '0', !!int '2', !!int '1', !!int '10']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '111', 'p': [!!int '1', !!int '99', !!int '0', !!int '10', !!int '1']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '122', 'p': [!!int '103', !!int '103', !!int '0', !!int '0', !!int '77']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '117', 'p': [!!int '6']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '411', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '117', 'p': [!!int '12']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '122', 'p': [!!int '4', !!int '4', !!int '2', !!int '1', !!int '106']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '111', 'p': [!!int '1', !!int '4', !!int '0', !!int '0', !!int '2']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '212', 'p': [!!int '0', !!int '2', !!bool 'false']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '214', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '122', 'p': [!!int '95', !!int '95', !!int '0', !!int '0', !!int '50']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '122', 'p': [!!int '96', !!int '96', !!int '0', !!int '0', !!int '42']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '13']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '1']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '411', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '44']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '412', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '412', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
+  !!int '9': !ruby/object:RPG::Event
+    'id': !!int '9'
+    'name': 'En06'
+    'x': !!int '30'
+    'y': !!int '23'
+    'pages':
+    - !ruby/object:RPG::Event::Page
+      'condition': !ruby/object:RPG::Event::Page::Condition
+        'switch1_valid': !!bool 'false'
+        'switch2_valid': !!bool 'false'
+        'variable_valid': !!bool 'false'
+        'self_switch_valid': !!bool 'false'
+        'item_valid': !!bool 'false'
+        'actor_valid': !!bool 'false'
+        'switch1_id': !!int '1'
+        'switch2_id': !!int '1'
+        'variable_id': !!int '1'
+        'variable_value': !!int '0'
+        'self_switch_ch': 'A'
+        'item_id': !!int '1'
+        'actor_id': !!int '1'
+      'graphic': !ruby/object:RPG::Event::Page::Graphic
+        'tile_id': !!int '0'
+        'character_name': 'Monster03'
+        'character_index': !!int '4'
+        'direction': !!int '2'
+        'pattern': !!int '1'
+      'move_type': !!int '2'
+      'move_speed': !!int '4'
+      'move_frequency': !!int '4'
+      'move_route': !ruby/object:RPG::MoveRoute
+        'repeat': !!bool 'true'
+        'skippable': !!bool 'false'
+        'wait': !!bool 'false'
+        'list':
+        - !ruby/object:RPG::MoveCommand {'code': !!int '0', 'parameters': []}
+      'walk_anime': !!bool 'true'
+      'step_anime': !!bool 'true'
+      'direction_fix': !!bool 'false'
+      'through': !!bool 'false'
+      'priority_type': !!int '1'
+      'trigger': !!int '2'
+      'list':
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '108', 'p': ['HP:750 攻撃力:95 E:82 G:59']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '122', 'p': [!!int '99', !!int '99', !!int '0', !!int '2', !!int '1', !!int '10']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '111', 'p': [!!int '1', !!int '99', !!int '0', !!int '10', !!int '1']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '122', 'p': [!!int '103', !!int '103', !!int '0', !!int '0', !!int '95']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '117', 'p': [!!int '6']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '411', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '117', 'p': [!!int '12']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '122', 'p': [!!int '6', !!int '6', !!int '2', !!int '1', !!int '106']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '111', 'p': [!!int '1', !!int '6', !!int '0', !!int '0', !!int '2']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '212', 'p': [!!int '0', !!int '2', !!bool 'false']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '214', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '14']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '122', 'p': [!!int '95', !!int '95', !!int '0', !!int '0', !!int '82']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '122', 'p': [!!int '96', !!int '96', !!int '0', !!int '0', !!int '59']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '13']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '1']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '411', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '44']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '412', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '0', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '412', 'p': []}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
+  !!int '10': !ruby/object:RPG::Event
+    'id': !!int '10'
+    'name': 'EV010'
+    'x': !!int '36'
+    'y': !!int '18'
+    'pages':
+    - !ruby/object:RPG::Event::Page
+      'condition': !ruby/object:RPG::Event::Page::Condition
+        'switch1_valid': !!bool 'false'
+        'switch2_valid': !!bool 'false'
+        'variable_valid': !!bool 'false'
+        'self_switch_valid': !!bool 'false'
+        'item_valid': !!bool 'false'
+        'actor_valid': !!bool 'false'
+        'switch1_id': !!int '1'
+        'switch2_id': !!int '1'
+        'variable_id': !!int '1'
+        'variable_value': !!int '0'
+        'self_switch_ch': 'A'
+        'item_id': !!int '1'
+        'actor_id': !!int '1'
+      'graphic': !ruby/object:RPG::Event::Page::Graphic
+        'tile_id': !!int '0'
+        'character_name': ''
+        'character_index': !!int '0'
+        'direction': !!int '2'
+        'pattern': !!int '0'
+      'move_type': !!int '0'
+      'move_speed': !!int '3'
+      'move_frequency': !!int '3'
+      'move_route': !ruby/object:RPG::MoveRoute
+        'repeat': !!bool 'true'
+        'skippable': !!bool 'false'
+        'wait': !!bool 'false'
+        'list':
+        - !ruby/object:RPG::MoveCommand {'code': !!int '0', 'parameters': []}
+      'walk_anime': !!bool 'true'
+      'step_anime': !!bool 'false'
+      'direction_fix': !!bool 'false'
+      'through': !!bool 'false'
+      'priority_type': !!int '0'
+      'trigger': !!int '1'
+      'list':
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '201', 'p': [!!int '0', !!int '205', !!int '5', !!int '7', !!int '0', !!int '0']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '122', 'p': [!!int '1', !!int '2', !!int '0', !!int '0', !!int '140']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '122', 'p': [!!int '3', !!int '4', !!int '0', !!int '0', !!int '700']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '122', 'p': [!!int '5', !!int '6', !!int '0', !!int '0', !!int '800']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '122', 'p': [!!int '7', !!int '7', !!int '0', !!int '0', !!int '1200']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
+'parallax_sx': !!int '0'
+'bgm': !ruby/object:RPG::BGM {'name': 'Stage01', 'volume': !!int '90', 'pitch': !!int '100'}
+'tileset_id': !!int '2'
+'encounter_step': !!int '30'
+'width': !!int '40'
+'data': !ruby/object:Table
+  'dim': !!int '3'
+  'x': !!int '40'
+  'y': !!int '33'
+  'z': !!int '4'
+  'data':
+  - '0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0000 0000 0000'
+  - '0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0000 0000 0000'
+  - '0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0000 0000 0000'
+  - '0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0000 0000 0000'
+  - '0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0000 0000 0000'
+  - '0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0000 0000 0000'
+  - '0608 0608 0608 0608 0608 0608 0608 0608 0608 1d52 1d44 1d44 1d44 1d44 1d44 1d54 0608 0608 0608 0608 0608 0608 0608 1d52 1d44 1d44 1d54 0608 0608 0608 0608 0608 0608 0608 0608 0608 0608 0000 0000 0000'
+  - '065e 065e 065f 0608 0608 0608 0608 1d52 1d44 1d31 1d30 1d30 1d30 1d30 1d30 1d32 0605 0605 0605 0605 0605 0605 1d44 1d31 1d30 1d30 1d32 1d54 0608 0608 0608 0608 0608 0608 0608 0608 0608 0000 0000 0000'
+  - '0c80 0c80 0674 065e 065f 0608 1d52 1d31 1d30 1d30 1d30 1d30 1d30 1d30 1d34 1d4c 060d 060d 060d 060d 060d 060d 1d4c 1d38 1d30 1d30 1d30 1d48 0608 0608 0608 0608 0608 0608 0608 0608 0608 0000 0000 0000'
+  - '0c80 0c80 0c80 0c80 0674 065e 1d40 1d30 1d30 1d30 1d30 1d30 1d30 1d34 1d56 1eb2 1eb6 0608 0608 0608 0608 1eb3 1eb2 1d40 1d30 1d30 1d30 1d32 1d54 0608 0608 0608 0608 0608 0608 0608 0608 0000 0000 0000'
+  - '0c80 0c80 0c80 0c80 0c84 0ca6 1d40 1d30 1d30 1d30 1d30 1d34 1d4c 1d56 1eb6 1eb0 1eb4 0608 0608 0608 0608 1eb1 1eb0 1d40 1d30 1d30 1d30 1d30 1d48 0608 0608 0608 0608 0608 0608 0608 0608 0000 0000 0000'
+  - '0c80 0c80 0c80 0c80 0c98 1d52 1d31 1d30 1d30 1d30 1d34 1d56 1eb2 1eb6 1eb4 1eb0 1eb4 065f 0608 0608 0608 1eb1 1eb0 1d40 1d30 1d30 1d30 1d30 1d48 0608 065d 065e 065e 065e 065e 065e 065f 0000 0000 0000'
+  - '0c80 0c80 0c80 0c84 0ca6 1d40 1d30 1d30 1d30 1d30 1d48 1eb6 1eb0 1eb4 1eb4 1eb0 1eb4 0674 065e 065e 065e 1eb1 1eb0 1d40 1d30 1d30 1d30 1d30 1d48 065e 0673 0c80 0c80 0c80 0c80 0c80 0667 0000 0000 0000'
+  - '0c80 0c80 0c80 0c98 1d52 1d31 1d30 1d30 1d30 1d34 1d56 1eb4 1eb0 1eb4 1eb4 1eb8 1ebc 0c90 0c80 0c80 0c98 1eb9 1eb8 1d58 1d38 1d30 1d30 1d30 1d48 0c90 0c80 0c80 0c80 0c80 0c84 0c9c 0674 065e 065e 0ca1'
+  - '0c80 0c80 0c80 0c98 1d40 1d30 1d30 1d30 1d30 1d48 1eb6 1eb4 1eb0 1eb4 1ebc 0ca2 0c94 0c81 0c80 0c80 0c82 0c94 0ca4 1eb3 1d40 1d30 1d30 1d30 1d48 0c90 0c80 0c80 0c84 0c9c 0ca6 1d52 1d44 1d44 1d44 1d44'
+  - '0c80 0c80 0c80 0c98 1d40 1d30 1d30 1d30 1d30 1d48 1eb4 1eb4 1eb8 1ebc 0ca2 0c81 0c80 0c80 0c80 0c80 0c80 0c80 0c98 1eb1 1d40 1d30 1d30 1d30 1d48 0c90 0c80 0c80 0c98 1d52 1d44 1d31 1d30 1d30 1d30 1d30'
+  - '0c80 0c80 0c80 0c98 1d40 1d30 1d30 1d30 1d30 1d48 1eb4 1ebc 0ca2 0c94 0c81 0c80 0c80 0c80 0c80 0c80 0c80 0c80 0c98 1eb1 1d40 1d30 1d30 1d30 1d48 0ca8 0c88 0c80 0c98 1d58 1d4c 1d4c 1d4c 1d4c 1d38 1d30'
+  - '0c80 0c80 0c84 0ca6 1d40 1d30 1d30 1d30 1d34 1d56 1eb4 0ca2 0c81 0c80 0c84 0c9c 0c9c 0c9c 0c88 0c80 0c80 0c80 0c98 1eb1 1d40 1d30 1d30 1d30 1d32 1d54 0c90 0c80 0c82 1eb3 1eb0 1eb2 1eb2 1eb2 1d58 1d4c'
+  - '0c80 0c80 0c98 1d52 1d31 1d30 1d30 1d34 1d56 1eb6 1ebc 0c90 0c80 0c84 0ca6 1d52 1d44 1d54 0ca8 0c88 0c80 0c80 0c98 1eb9 1d40 1d30 1d30 1d30 1d30 1d48 0c90 0c80 0c80 1eb1 1eb0 1eb0 1eb0 1eb0 1eb3 1eb0'
+  - '0c80 0c80 0c98 1d40 1d30 1d30 1d30 1d48 1eb6 1eb4 0ca2 0c81 0c80 0c98 1d52 1d31 1d30 1d32 1d54 0c90 0c80 0c80 0c82 0ca4 1d58 1d38 1d30 1d30 1d30 1d48 0ca8 0c88 0c80 1eb1 1eb0 1d52 1d30 1d54 1eb1 1eb0'
+  - '0c80 0c80 0c98 1d40 1d30 1d30 1d30 1d48 1eb4 1eb4 0c90 0c80 0c80 0c98 1d40 1d30 1d30 1d30 1d48 0c90 0c80 0c80 0c80 0c98 1eb3 1d58 1d38 1d30 1d30 1d32 1d54 0ca8 0c88 1eb1 1d52 1d31 1d30 1d48 1eb1 1eb0'
+  - '0c80 0c80 0c98 1d40 1d30 1d30 1d30 1d48 1eb4 1eb4 0c90 0c80 0c80 0c98 1d40 1d30 1d30 1d30 1d48 0ca8 0c88 0c80 0c80 0c98 1eb1 1eb3 1d40 1d30 1d30 1d30 1d32 1d54 0ca8 1eb9 1d40 1d30 1d30 1d48 1eb1 1eb0'
+  - '0c80 0c80 0c98 1d40 1d30 1d30 1d30 1d48 1eb4 1ebc 0c90 0c80 0c80 0c98 1d58 1d38 1d30 1d30 1d32 1d54 0c90 0c80 0c80 0c98 1eb1 1eb1 1d58 1d38 1d30 1d30 1d30 1d32 1d44 1d44 1d31 1d30 1d30 1d48 1eb9 1eb0'
+  - '0c80 0c80 0c98 1d40 1d30 1d30 1d30 1d32 1d54 0ca2 0c81 0c80 0c80 0c98 1eb3 1d58 1d4c 1d38 1d30 1d48 0ca8 0c88 0c80 0c98 1eb1 1eb1 1eb3 1d40 1d30 1d30 1d30 1d30 1d30 1d30 1d30 1d30 1d34 1d56 0c90 0c80'
+  - '0c80 0c84 0ca6 1d40 1d30 1d30 1d30 1d30 1d48 0ca8 0c88 0c80 0c80 0c98 1eb1 1eb3 1eb2 1d40 1d30 1d32 1d54 0c90 0c80 0c98 1eb9 1eb1 1eb1 1d40 1d30 1d30 1d30 1d30 1d30 1d30 1d30 1d30 1d48 1eb6 0c90 0c80'
+  - '0c80 0c80 1d52 1d31 1d30 1d30 1d30 1d30 1d32 1d54 0c90 0c80 0c80 0c98 1eb1 1eb1 1eb0 1d40 1d30 1d30 1d48 0ca8 0c88 0c82 0ca4 1eb9 1eb1 1d58 1d38 1d30 1d30 1d30 1d30 1d30 1d30 1d30 1d48 1eb4 0c90 0c80'
+  - '0c80 0c80 1d40 1d30 1d30 1d30 1d30 1d30 1d30 1d48 0c90 0c80 0c80 0c98 1eb1 1eb1 1d52 1d31 1d30 1d30 1d32 1d54 0ca8 0c88 0c82 0ca4 1eb1 1eb3 1d58 1d4c 1d4c 1d38 1d30 1d34 1d4c 1d4c 1d49 1eb4 0c90 0c80'
+  - '0c80 0c80 1d40 1d30 1d30 1d30 1d30 1d30 1d30 1d48 0c90 0c80 0c80 0c98 1eb9 1d52 1d31 1d30 1d30 1d30 1d30 1d32 1d54 0ca8 0c88 0c98 1eb9 1eb1 1eb3 1eb2 1eb2 1d58 1d4c 1d56 1eb2 1eb2 1d5c 1eb4 0c90 0c80'
+  - '0c80 0c80 1d58 1d38 1d30 1d30 1d30 1d34 1d4c 1d56 0c90 0c80 0c80 0c86 0cad 1d40 1d30 1d30 1d30 1d30 1d30 1d30 1d32 1d54 0c90 0c82 0ca4 1eb1 1eb1 1eb0 1eb0 1eb3 1eb2 1eb6 1eb0 1eb0 1eb7 1ebc 0c90 0c80'
+  - '0c80 0c80 1eb3 1d58 1d30 1d30 1d4c 1d56 1eb2 1eb6 0c90 0c80 0c80 0c98 1d52 1d31 1d30 1d30 1d30 1d30 1d30 1d30 1d30 1d48 0c90 0c80 0c98 1eb1 1eb1 1eb0 1eb0 1eb1 1eb0 1eb4 1eb0 1eb0 1eb5 0ca2 0c81 0c80'
+  - '0c80 0c80 1eb1 1eb3 061c 061e 1eb2 1eb6 1eb0 1eb4 0c90 0c80 0c80 0c98 1d58 1d4c 1d4c 1d38 1d30 1d30 1d30 1d34 1d4c 1d56 0c90 0c80 0c98 1eb9 1eb1 1eb0 1eb0 1eb1 1eb0 1eb4 1eb0 1eb0 1eb5 0c90 0c80 0c80'
+  - '0c80 0c80 1eb1 1eb1 061c 061e 1eb0 1eb4 1eb0 1eb4 0c90 0c80 0c80 0c82 1eb3 1eb2 1eb2 1d58 1d4c 1d4c 1d4c 1d56 1eb2 1eb6 0c90 0c80 0c82 0ca4 1eb9 1eb8 1eb8 1eb1 1eb0 1eb4 1eb8 1eb8 1eb5 0c90 0c80 0c80'
+  - '0c80 0c80 1eb0 1eb1 061c 061e 1eb8 1eb4 1eb8 1eb4 0c90 0c80 0c80 0c80 1eb1 1eb8 1eb8 1eb3 1eba 1eba 1eba 1eb4 1eb8 1eb4 0c90 0c80 0c80 0c82 0c94 0c94 0ca4 1eb9 1eb8 1ebc 0ca2 0ca4 1ebd 0c90 0c80 0c80'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 00b7 0000 0000 0000 00b7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 00b7 0000 036b 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 036b 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 00a8 0000 0000 0000 0000 0000 0000 0000 00b7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 036b 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 00b0 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 00b7 0000 0000 0000 0000 0000 0000 0000 0000 00a8 0000 0000 0000 0000'
+  - '0000 0328 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 00b0 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 036b 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 00a8 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 036b 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 00b0 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 036b 0000 0000 0000 0000 00a8 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 036b 0000 0000 0000 00a8 036b 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 00b7 0000 00b0 0000 0000 0000 0000 0000 0000 0000 0000 0000 036b 00a8 0000 0328 0000 0000 0000 0000 0000 0000 0000 0000 0000 00b0 0000 0000 0000 0000 0000 0000 036b 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 036b 0000 0000 0000 0000 0000 0000 0000 0000 036b 0000 0000 00b0 036b 0000 0064 0000 0000 0000 0000 0000 00a8 0000 0000 0000 036b 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 00b7 0000 0000 0000 0000 0000 0000 00a8 0000 0000 0000 0000 00a8 00b7 0000 0000 0000 0000 0000 0000 00b0 0000 0000 0000 00a8 0000 0000 0000 0000 0176 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 036b 0000 0000 0000 0000 0000 0000 0000 036b 00b0 0000 0000 0000 0000 00b0 036b 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 00b0 0000 0000 0000 0000 017e 0000 0000 0000'
+  - '0000 00a8 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 00a8 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 036b 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 00b0 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 00b0 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 00b7 0000 0000 0000 0000 0000 0000 0000 006b 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 036b 0000 0000 0000 0000 036b 0000 0000 0000 0000 0328 0000 036b 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 006b 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0328 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 00a8 0000 0000 0000 0000 0000 036b 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 00a8 0000 0000 0000 0000 0000 0000 0000 036b 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '036b 0000 0000 0000 00b0 0000 0000 0000 0000 0000 0000 0000 00a8 0000 0000 0000 0000 0000 0000 0000 0000 0000 00b0 0000 0000 0000 0000 0000 0000 0000 0000 036b 00a8 0000 036b 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 036b 0000 0000 0000 0328 00b0 0000 0000 0000 0000 0000 036b 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 00b0 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 036b 0000 0000 0000 0000 0000 00a8 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 036b 0000 0000 0000 036b 0000 0000 0000 036b 0000 0000 0000 0000 0000 0000 00b0 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 036b 0000 0000 0000 0000 00a8 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 00a8 036b 0000 0000 0000 036b 0000 0000 0000 0000 0000 0000 0000 00b0 00a8 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 00b0 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 00b0 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000'
+  - '0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000'
+  - '0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000'
+  - '0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000'
+  - '0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000 0005 0000 0000'
+'bgs': !ruby/object:RPG::BGS {'name': '', 'volume': !!int '80', 'pitch': !!int '100'}
+'parallax_loop_y': !!bool 'false'
+'autoplay_bgm': !!bool 'true'
+'encounter_list': []
+'autoplay_bgs': !!bool 'false'
+'parallax_show': !!bool 'true'
+'scroll_type': !!int '0'
+'parallax_loop_x': !!bool 'false'
+'disable_dashing': !!bool 'true'
+'parallax_sy': !!int '0'
+'display_name': ''
+'specify_battleback': !!bool 'false'
+'note': ''
+'battleback1_name': ''
+'battleback2_name': ''

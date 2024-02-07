@@ -1,0 +1,53 @@
+- !!null 'null'
+- !ruby/object:RPG::Enemy
+  'name': ''
+  'gold': !!int '0'
+  'battler_hue': !!int '0'
+  'exp': !!int '0'
+  'battler_name': ''
+  'actions':
+  - !ruby/object:RPG::Enemy::Action
+    'condition_type': !!int '0'
+    'rating': !!int '5'
+    'skill_id': !!int '1'
+    'condition_param2': !!int '0'
+    'condition_param1': !!int '0'
+  'note': ''
+  'id': !!int '1'
+  'features':
+  - !ruby/object:RPG::BaseItem::Feature
+    'code': !!int '22'
+    'data_id': !!int '0'
+    'value': !!float '0.95'
+  - !ruby/object:RPG::BaseItem::Feature
+    'code': !!int '22'
+    'data_id': !!int '1'
+    'value': !!float '0.05'
+  - !ruby/object:RPG::BaseItem::Feature
+    'code': !!int '31'
+    'data_id': !!int '1'
+    'value': !!int '0'
+  'params':
+  - !!int '100'
+  - !!int '0'
+  - !!int '10'
+  - !!int '10'
+  - !!int '10'
+  - !!int '10'
+  - !!int '10'
+  - !!int '10'
+  'drop_items':
+  - !ruby/object:RPG::Enemy::DropItem
+    'denominator': !!int '1'
+    'kind': !!int '0'
+    'data_id': !!int '1'
+  - !ruby/object:RPG::Enemy::DropItem
+    'denominator': !!int '1'
+    'kind': !!int '0'
+    'data_id': !!int '1'
+  - !ruby/object:RPG::Enemy::DropItem
+    'denominator': !!int '1'
+    'kind': !!int '0'
+    'data_id': !!int '1'
+  'icon_index': !!int '0'
+  'description': ''

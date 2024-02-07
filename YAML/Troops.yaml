@@ -1,0 +1,23 @@
+- !!null 'null'
+- !ruby/object:RPG::Troop
+  'members': []
+  'name': ''
+  'pages':
+  - !ruby/object:RPG::Troop::Page
+    'list':
+    - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
+    'span': !!int '0'
+    'condition': !ruby/object:RPG::Troop::Page::Condition
+      'turn_valid': !!bool 'false'
+      'actor_hp': !!int '50'
+      'turn_a': !!int '0'
+      'turn_ending': !!bool 'false'
+      'enemy_hp': !!int '50'
+      'switch_valid': !!bool 'false'
+      'enemy_index': !!int '0'
+      'actor_valid': !!bool 'false'
+      'actor_id': !!int '1'
+      'enemy_valid': !!bool 'false'
+      'switch_id': !!int '1'
+      'turn_b': !!int '0'
+  'id': !!int '1'
