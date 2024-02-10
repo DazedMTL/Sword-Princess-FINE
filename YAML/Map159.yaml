@@ -661,12 +661,11 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '111', 'p': [!!int '1', !!int '97', !!int '0', !!int '2', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['「こいつはレイウォルト行きの定期便だよ」']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '102', 'p': [['乗る', 'やめておく'], !!int '2']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['"This is the regular service to Raywalt."']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '102', 'p': [['Get on', 'Decide not to'], !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '402', 'p': [!!int '0', '乗る']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['「乗船パスを確認\.・\.・\.・\.問題なし。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['　良き船旅を！」']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['"Checking boarding pass... no problems. Have a good voyage!"']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '402', 'p': [!!int '1', 'やめておく']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '115', 'p': []}
@@ -677,16 +676,17 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '111', 'p': [!!int '1', !!int '97', !!int '0', !!int '3', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '111', 'p': [!!int '2', 'A', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['「こ……こいつはレイウォルト行きの定期便だよ」']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '102', 'p': [['乗る', 'やめておく'], !!int '2']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['"Th... This is the regular service to Raywalt."']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '102', 'p': [['Get on', 'Decide not to'], !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '402', 'p': [!!int '0', '乗る']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['「なら乗船パスを確認\.・\.・\.・\.問題なし。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['　よ、良き船旅を！」']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['"Then, checking boarding pass... no problems. Have a good
+
+            voyage!"']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '402', 'p': [!!int '1', 'やめておく']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['「そ、そうかい……またな」']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['"Is that so... see you then."']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '115', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '404', 'p': []}
@@ -694,22 +694,23 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '411', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '123', 'p': ['A', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['「こいつはレイウォルト行き……な、何だぁ！？」']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['"This is the Raywalt bound... wha, what the!?"']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '117', 'p': [!!int '21']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['\c[17]ファイン\c[0]']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['「あ、あの……えっと」']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '102', 'p': [['乗る', 'やめておく'], !!int '2']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['\c[17]Fine\c[0]']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['"Ah, um... well..."']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '102', 'p': [['Get on', 'Stop'], !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '402', 'p': [!!int '0', '乗る']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '235', 'p': [!!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['「なら乗船パスを確認\.・\.・\.・\.問題なし。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['　よ、良き船旅を！」']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['"Then, checking boarding pass... no problems. Have a good
+
+            voyage!"']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '402', 'p': [!!int '1', 'やめておく']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '235', 'p': [!!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['「そ、そうかい……またな」']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['"Is that so... see you then."']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '115', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '404', 'p': []}
@@ -719,16 +720,17 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '411', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '111', 'p': [!!int '2', 'B', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['「こ……こいつはレイウォルト行きの定期便だよ」']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '102', 'p': [['乗る', 'やめておく'], !!int '2']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['"Th... This is the regular service to Raywalt."']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '102', 'p': [['Get on', 'Decide not to'], !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '402', 'p': [!!int '0', '乗る']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['「なら乗船パスを確認\.・\.・\.・\.問題なし。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['　よ、良き船旅を！」']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['"Then, checking boarding pass... no problems. Have a good
+
+            voyage!"']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '402', 'p': [!!int '1', 'やめておく']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['「そ、そうかい……またな」']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['"Is that so... see you then."']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '115', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '404', 'p': []}
@@ -737,22 +739,23 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '123', 'p': ['B', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '213', 'p': [!!int '0', !!int '1', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['「こいつはレイウォルト行き……うおぉ！？」']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['"This is the Raywalt bound... whoa!?"']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '117', 'p': [!!int '21']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['\c[17]ファイン\c[0]']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['「うふふ、船番ご苦労様♪」']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '102', 'p': [['乗る', 'やめておく'], !!int '2']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['\c[17]Fine\c[0]']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['"Ufufu, thank you for your hard work, ferryman♪"']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '102', 'p': [['Get on', 'Decide not to'], !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '402', 'p': [!!int '0', '乗る']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '235', 'p': [!!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['「なら乗船パスを確認\.・\.・\.・\.問題なし。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['　よ、良き船旅を！」']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['"Then, checking boarding pass... no problems. Have a good
+
+            voyage!"']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '402', 'p': [!!int '1', 'やめておく']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '235', 'p': [!!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['「そ、そうかい……またな」']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['"Is that so... see you then."']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '115', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '0', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '404', 'p': []}
@@ -806,12 +809,13 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['「こいつはレイウォルト行きの定期便だよ」']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['"This is the regular service to Raywalt."']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '231', 'p': [!!int '1', 'bu05a通常', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\c[17]ファイン\c[0]']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['（沖に軍船が停泊しているのだから']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['　この船に乗る必要は無いわね）']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\c[17]Fine\c[0]']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['"(Since there''s a military ship anchored off the coast,
+
+            there''s no need to board this one, is there?)"']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '22']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
   !!int '6': !ruby/object:RPG::Event
@@ -878,13 +882,12 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '230', 'p': [!!int '60']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '231', 'p': [!!int '1', 'bu05d疑問', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\c[17]ファイン\c[0]']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['「……お前、独りなのかい？」']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\c[17]Fine\c[0]']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['"...Are you alone?"']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '231', 'p': [!!int '1', 'bu05a通常', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\c[17]ファイン\c[0]']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['「あたしの所へいらっしゃい。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['　……よしよし、いい子ね」']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['\c[17]Fine\c[0]']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '401', 'p': ['"Come to me....there, there, good girl."']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '117', 'p': [!!int '22']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '230', 'p': [!!int '30']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '242', 'p': [!!int '1']}
@@ -960,8 +963,8 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '505', 'p': [*15]}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '31']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['\c[17]ファイン\c[0]']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['「よしよし……」']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['\c[17]Fine\c[0]']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['"There, there..."']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '235', 'p': [!!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '123', 'p': ['A', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '0', 'p': []}
@@ -1010,8 +1013,8 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '230', 'p': [!!int '60']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '117', 'p': [!!int '30']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['\c[17]ファイン\c[0]']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['「ふふ……よしよし」']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['\c[17]Fine\c[0]']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['"Hehe...there, there."']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '235', 'p': [!!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '123', 'p': ['B', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '0', 'p': []}
@@ -1154,7 +1157,7 @@
 'parallax_loop_x': !!bool 'false'
 'disable_dashing': !!bool 'false'
 'parallax_sy': !!int '0'
-'display_name': 'シーファス港'
+'display_name': 'Seafas Port'
 'specify_battleback': !!bool 'false'
 'note': ''
 'battleback1_name': ''

@@ -394,8 +394,9 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['「ダンジョンには\c[24]隠し通路\c[0]が存在する場合があるよ。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['　怪しい行き止まりに注意するといいかも」']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['"In dungeons, there might be \c[24]hidden passages\c[0].
+
+            It''s a good idea to watch out for suspicious dead ends."']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '212', 'p': [!!int '0', !!int '110', !!bool 'false']}
       - !ruby/object:RPG::EventCommand
         'i': !!int '0'
@@ -622,7 +623,7 @@
 'parallax_loop_x': !!bool 'false'
 'disable_dashing': !!bool 'false'
 'parallax_sy': !!int '0'
-'display_name': 'モルファド山脈東口'
+'display_name': 'Morfad Mountain Range Eastern Entrance'
 'specify_battleback': !!bool 'false'
 'note': ''
 'battleback1_name': ''
