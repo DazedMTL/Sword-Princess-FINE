@@ -40,11 +40,11 @@ module GALLERY
   
   # フィルタの設定
   CG_FILTER = [
-  #アイコン番号 , ヘルプに表示するテキスト
-  [543        , "すべてのHシーンを表示します。"],        # すべてのＣＧを表示
-  [555        , "ファインの着衣シーンを表示します。"],  # フィルター１
-  [556        , "ファインの全裸シーンを表示します。"],  # フィルター２
-  [557        , "NPCのHシーンを表示します。"],  # フィルター３
+  # Icon number, Text to display in help
+  [543        , "Displays all H-scenes."],        # Display all CGs
+  [555        , "Displays Fine's clothed scenes."],  # Filter 1
+  [556        , "Displays Fine's nude scenes."],  # Filter 2
+  [557        , "Displays NPC H-scenes."],  # Filter 3
 #  [547        , "全裸のシーンを表示します。"],  # フィルター４
   ]
 end
@@ -160,7 +160,7 @@ class Window_Gallery < Window_Selectable
       rect.width = contents.width
       rect.height = 32
       contents.font.size = 32
-      contents.draw_text(rect, "回想シーンが登録されていません。", 1)
+      contents.draw_text(rect, "The recollection scene is not unlocked.", 1)
     end
     @last = -1
   end
@@ -245,7 +245,7 @@ class Window_Filter < Window_Selectable
   #--------------------------------------------------------------------------
   def refresh
     contents.clear
-    self.contents.draw_text(10, -2, 100, 24, "衣装選択")
+    self.contents.draw_text(10, -2, 100, 24, "Costume")
     @list.size.times {|i| draw_text_ex(item_rect(i).x + 2, item_rect(i).y, "\\I[#{@list[i][0]}]") }
   end
   #--------------------------------------------------------------------------

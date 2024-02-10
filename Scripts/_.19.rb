@@ -102,7 +102,7 @@ class Scene_SceneGallery < Scene_Base
     @help_window.viewport = @viewport
     @help_window.width = 230
     @help_window.create_contents
-    @help_window.draw_text(0, -2, @help_window.contents.width, @help_window.contents.height, "＊ シーン回想 ＊", 1)
+    @help_window.draw_text(0, -2, @help_window.contents.width, @help_window.contents.height, "＊ Recollection ＊", 1)
   end
   #--------------------------------------------------------------------------
   # ● メインウィンドウの作成
