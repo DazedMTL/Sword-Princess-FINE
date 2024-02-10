@@ -43,14 +43,14 @@ module HZM_VXA
     # 　false …… 表示しない
     TITLE_FLAG = true
     # タイトル画面に表示する項目名
-    TITLE_NAME        = "音量設定"
+    TITLE_NAME        = "Volume"
     
     # ● メニュー画面に音量調整を表示するか？
     # 　true  …… 表示する
     # 　false …… 表示しない
     MENU_FLAG = true
     # メニュー画面に表示する項目名
-    MENU_NAME        = "音量設定"
+    MENU_NAME        = "Volume"
     
     # ● 音量変更項目のタイプ
     # 　0 …… BGM/BGS/SE/MEすべて一括で設定
@@ -59,12 +59,12 @@ module HZM_VXA
     TYPE = 2
     
     # ● 音量設定画面の項目名
-    CONFIG_ALL_NAME  = "音量"        # タイプ「0」を選択時に使用されます
+    CONFIG_ALL_NAME  = "Master"        # タイプ「0」を選択時に使用されます
     CONFIG_BGM_NAME  = "BGM"         # タイプ「1」「2」を選択時に使用されます
     CONFIG_BGS_NAME  = "BGS"         # タイプ「2」を選択時に使用されます
     CONFIG_SE_NAME   = "SE"          # タイプ「1」「2」を選択時に使用されます
     CONFIG_ME_NAME   = "ME"          # タイプ「2」を選択時に使用されます
-    CONFIG_EXIT_NAME = "決定"
+    CONFIG_EXIT_NAME = "Confirm"
     
     # ● 音量変更の変動量
     ADD_VOL_NORMAL =  5              # 左右キーの変動量
@@ -442,7 +442,8 @@ module HZM_VXA
         @command_window = Window_VolConfig.new
         @command_window.viewport = @viewport
         @command_window.set_handler(:cancel,   method(:return_scene))
-        @help_window.set_text("ゲームの音量の調整ができます。（0：無音～100:最大）\n←　音量を下げる　／　音量を上げる　→")
+        @help_window.set_text("You can adjust the game volume. (0: Mute ~ 100: Maximum)
+        ←　Lower volume　／　Raise volume　→")
       end
       #-------------------------------------------------------------------------
       # ● 終了処理

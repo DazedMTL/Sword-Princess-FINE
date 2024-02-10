@@ -7,12 +7,12 @@
 #==============================================================================
 #用語の設定
 module Vocab
-  EVA = "パイズリ"          #物理回避率
-  MEV = "中出し"      #魔法回避率
-  HIT = "アナル"          #命中率
-  CRI = "淫乱度"  #クリティカル率
-  ExpTotal = "現在の経験値"
-  ExpNext  = "次のレベルまで"
+  EVA = "Paizuri"          # Physical Evasion Rate
+  MEV = "Climax"      # Magical Evasion Rate
+  HIT = "Anal"          # Hit Rate
+  CRI = "Lewdness"  # Critical Rate
+  ExpTotal = "Current EXP"
+  ExpNext  = "Next Level"
 end
 
 class Window_Status < Window_Selectable
