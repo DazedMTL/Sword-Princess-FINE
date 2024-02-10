@@ -62,7 +62,7 @@ type = 0
 # ID  / 金の場合は金額を入力
 id   = 1
 # 入手テキスト / 金の場合無効
-text = "アイテム入手！"
+text = "Obtained!"
 #
 e = $game_temp.streffect
 e.push(Window_Getinfo.new(id, type, text))
@@ -75,7 +75,7 @@ e.push(Window_Getinfo.new(id, type, text))
 #
 # 指定IDのアクターの名前取得
 t = $game_actors[1].name 
-text = t + " / スキル修得！"
+text = t + " / Acquired!"
 #
 end
 
