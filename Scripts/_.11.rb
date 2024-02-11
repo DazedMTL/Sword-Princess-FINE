@@ -404,7 +404,7 @@ class Window_ItemDictionaryPerfection < Window_Selectable
   #--------------------------------------------------------------------------
   def refresh(width)
     contents.clear
-    draw_text(0, 0, width-24, line_height, "図鑑完成度: #{item_dictionary_perfection} %", 1)
+    draw_text(0, 0, width-24, line_height, "Total: #{item_dictionary_perfection} %", 1)
   end
 end
 

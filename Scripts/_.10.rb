@@ -51,17 +51,17 @@ module WD_itemdictionary_layout
   I_price_display_x      = 150
   I_price_display_y      = 32
   I_price_display_width  = 136
-  I_price_display_text1  = "価格"
+  I_price_display_text1  = "Price"
 
   #使用可能時の表示
   I_occasion_display        = true
   I_occasion_display_x      = 0
   I_occasion_display_y      = 62
   I_occasion_display_width  = 140
-  I_occasion_display_text1  = "使用"
-  I_occasion_display_text2  = "常時"
-  I_occasion_display_text3  = "戦闘時"
-  I_occasion_display_text4  = "移動時"
+  I_occasion_display_text1  = "Use"
+  I_occasion_display_text2  = "Always"
+  I_occasion_display_text3  = "Time"
+  I_occasion_display_text4  = "Travel"
   I_occasion_display_text5  = "－"
 
   #消耗の表示
@@ -69,17 +69,17 @@ module WD_itemdictionary_layout
   I_consumable_display_x      = 150
   I_consumable_display_y      = 62
   I_consumable_display_width  = 140
-  I_consumable_display_text1  = "消耗"
-  I_consumable_display_text2  = "消耗する"
-  I_consumable_display_text3  = "消耗しない"
+  I_consumable_display_text1  = "Consumption"
+  I_consumable_display_text2  = "Limited"
+  I_consumable_display_text3  = "Infinite"
 
   #特徴の表示
   I_option_display       = true
   I_option_display_x     = 0
   I_option_display_y     = 92
   I_option_display_width = 294
-  I_option_display_text1 = "特徴"
-  I_option_display_text2 = "なし"
+  I_option_display_text1 = "Traits"
+  I_option_display_text2 = "Cancel"
 
 #===武器図鑑設定================================================================
 
@@ -101,14 +101,14 @@ module WD_itemdictionary_layout
   W_type_display_x      = 0
   W_type_display_y      = 32
   W_type_display_width  = 136
-  W_type_display_text1  = "タイプ"
+  W_type_display_text1  = "Type"
 
   #価格の表示
   W_price_display       = true
   W_price_display_x     = 150
   W_price_display_y     = 32
   W_price_display_width = 136
-  W_price_display_text1 = "価格"
+  W_price_display_text1 = "Price"
 
   #攻撃力の表示
   W_atk_display         = true
@@ -163,8 +163,8 @@ module WD_itemdictionary_layout
   W_option_display_x     = 0
   W_option_display_y     = 116
   W_option_display_width = 294
-  W_option_display_text1 = "特徴"
-  W_option_display_text2 = "なし"
+  W_option_display_text1 = "Traits"
+  W_option_display_text2 = "Cancel"
 
 
 #===防具図鑑設定================================================================
@@ -187,14 +187,14 @@ module WD_itemdictionary_layout
   A_type_display_x      = 0
   A_type_display_y      = 32
   A_type_display_width  = 136
-  A_type_display_text1  = "タイプ"
+  A_type_display_text1  = "Type"
 
   #価格の表示
   A_price_display       = true
   A_price_display_x     = 150
   A_price_display_y     = 32
   A_price_display_width = 136
-  A_price_display_text1 = "価格"
+  A_price_display_text1 = "Price"
 
   #攻撃力の表示
   A_atk_display         = true
@@ -249,8 +249,8 @@ module WD_itemdictionary_layout
   A_option_display_x     = 0
   A_option_display_y     = 124
   A_option_display_width = 294
-  A_option_display_text1 = "特徴"
-  A_option_display_text2 = "なし"
+  A_option_display_text1 = "Traits"
+  A_option_display_text2 = "Cancel"
 
 
 end
